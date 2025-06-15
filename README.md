@@ -16,29 +16,37 @@ A clean architecture-based ASP.NET Core Web API for managing bookings, users, an
 ## 📁 Project Structure
 
 ```
-/BookingApp.API
-│   ├── Controllers
-│   ├── Middleware (Auth, Logging, ErrorHandling)
-│   └── Program.cs / DI
 
-/BookingApp.Application
-│   ├── DTOs
-│   ├── Interfaces (e.g. IServiceRepository)
-│   ├── Validators (FluentValidation)
-│   ├── Services (CommandHandlers, QueryHandlers)
-│   └── Features (Booking, Payment, etc.)
+BookStoreManagement/
+│
+├── bsm.API/                  ← Startup & cấu hình app
+│   └── Program.cs
+│
+├── bsm.Presentation/            ← Controllers, Filters, Middleware
+│   ├── Controllers/
+│   ├── Middleware/
+│   └── DependencyInjection.cs
+│
+├── bsm.Application/             ← Use Cases, Logic trung gian
+│   ├── Commands/
+│   ├── Queries/
+│   ├── DTOs/
+│   └── DependencyInjection.cs
+│
+├── bsm.Domain/                  ← Business Core (Entities, Rules)
+│   ├── Entities/
+│   ├── Interfaces/
+│   ├── Enums/
+│   └── Exceptions/
+│
+├── bsm.Infrastructure/         ← Data access & services bên ngoài
+│   ├── Persistence/
+│   ├── Repositories/
+│   └── DependencyInjection.cs
+│
+└── BookStoreManagement.sln      ← Solution file
 
-/BookingApp.Domain
-│   ├── Entities (Booking, User, Payment)
-│   ├── Enums
-│   ├── Interfaces (IRepository, IDomainEvent)
-│   └── ValueObjects
 
-/BookingApp.Infrastructure
-│   ├── Data (DbContext, migrations)
-│   ├── Repositories
-│   ├── ExternalServices (Email, Redis, etc.)
-│   └── Configuration (EF config, connection strings)
 ```
 
 ## 🚀 Getting Started
