@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\bsm.Application\bsm.Application.csproj" />
     <ProjectReference Include="..\bsm.Domain\bsm.Domain.csproj" />
   </ItemGroup>
 

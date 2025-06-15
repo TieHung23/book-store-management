@@ -16,10 +16,10 @@ namespace bsm.API
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle  
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddPresentation();
             builder.Services
                 .AddApplication()
                 .AddInfrastructure()
-                .AddPresentation()
                 .AddDbContext( builder.Configuration );
 
             builder.Host.UseSerilog( ( context, configuration ) =>
