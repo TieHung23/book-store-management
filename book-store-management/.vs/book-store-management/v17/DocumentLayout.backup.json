@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{6DA2EBE6-657C-4862-93A9-7500F13744A6}|bsm.API\\bsm.API.csproj|solutionrelative:bsm.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6DA2EBE6-657C-4862-93A9-7500F13744A6}|bsm.API\\bsm.API.csproj|d:\\hoc\\project\\book-store-management\\book-store-management\\bsm.api\\logs\\log-20250615.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6DA2EBE6-657C-4862-93A9-7500F13744A6}|bsm.API\\bsm.API.csproj|solutionrelative:bsm.api\\logs\\log-20250615.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{020BAF5E-8B76-4A0F-B40A-F982A78268AD}|bsm.Presentation\\bsm.Presentation.csproj|d:\\hoc\\project\\book-store-management\\book-store-management\\bsm.presentation\\testpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{020BAF5E-8B76-4A0F-B40A-F982A78268AD}|bsm.Presentation\\bsm.Presentation.csproj|solutionrelative:bsm.presentation\\testpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6DA2EBE6-657C-4862-93A9-7500F13744A6}|bsm.API\\bsm.API.csproj|d:\\hoc\\project\\book-store-management\\book-store-management\\bsm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DA2EBE6-657C-4862-93A9-7500F13744A6}|bsm.API\\bsm.API.csproj|solutionrelative:bsm.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 465,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "log-20250615.txt",
+              "DocumentMoniker": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.API\\Logs\\log-20250615.txt",
+              "RelativeDocumentMoniker": "bsm.API\\Logs\\log-20250615.txt",
+              "ToolTip": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.API\\Logs\\log-20250615.txt",
+              "RelativeToolTip": "bsm.API\\Logs\\log-20250615.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-15T12:57:00.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestPresentationController.cs",
+              "DocumentMoniker": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.Presentation\\TestPresentationController.cs",
+              "RelativeDocumentMoniker": "bsm.Presentation\\TestPresentationController.cs",
+              "ToolTip": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.Presentation\\TestPresentationController.cs",
+              "RelativeToolTip": "bsm.Presentation\\TestPresentationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:55:59.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,14 +78,14 @@
               "RelativeDocumentMoniker": "bsm.API\\appsettings.json",
               "ToolTip": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.API\\appsettings.json",
               "RelativeToolTip": "bsm.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-15T12:55:10.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "bsm.Infrastructure\\DependencyInjection.cs",
@@ -64,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.API\\Program.cs",
               "RelativeDocumentMoniker": "bsm.API\\Program.cs",
@@ -77,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "bsm.Presentation",
               "DocumentMoniker": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.Presentation\\bsm.Presentation.csproj",
               "RelativeDocumentMoniker": "bsm.Presentation\\bsm.Presentation.csproj",
@@ -90,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\Hoc\\Project\\book-store-management\\book-store-management\\bsm.Presentation\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "bsm.Presentation\\DependencyInjection.cs",
